@@ -1,0 +1,47 @@
+{
+  "manifest_version": 3,
+  "name": "TaleName Extension",
+  "version": "1.0.0",
+  "description": "Verify and claim your Hytale reserved usernames on TaleName",
+  "permissions": [
+    "storage",
+    "activeTab",
+    "cookies"
+  ],
+  "host_permissions": [
+    "https://accounts.hytale.com/*",
+    "https://api.talename.net/*",
+    "https://talename.net/*"
+  ],
+  "background": {
+    "scripts": [
+      "browser-api.js",
+      "background.js"
+    ]
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://accounts.hytale.com/*"
+      ],
+      "js": [
+        "browser-api.js",
+        "content.js"
+      ],
+      "run_at": "document_idle"
+    }
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icon16.png",
+      "48": "icon48.png",
+      "128": "icon128.png"
+    }
+  },
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  }
+}
