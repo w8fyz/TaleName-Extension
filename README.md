@@ -3,9 +3,9 @@
 Welcome to the official extension for the first unofficial username database of Hytale!
 Install it here :
 
-> Chrome Extension
+Chrome Extension : COMING SOON
 
-> Firefox Extension
+Firefox Extension : COMING SOON
 
 # Features
 
