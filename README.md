@@ -7,10 +7,6 @@ Chrome Extension : COMING SOON
 
 Firefox Extension : COMING SOON
 
-# Build
-
-run **npm run build** to get the Firefox and chrome build in "build" folder.
-
 # Features
 
 ## 1. Username status fetching
