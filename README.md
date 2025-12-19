@@ -3,9 +3,9 @@
 Welcome to the official extension for the first unofficial username database of Hytale!
 Install it here :
 
-Chrome Extension : COMING SOON
+Chrome Extension : [Download](https://chromewebstore.google.com/detail/talename-extension/hgmpmgllohcakjllcigkelejjpalfkff)
 
-Firefox Extension : COMING SOON
+Firefox Extension : [Download](https://addons.mozilla.org/en-US/firefox/addon/talename/)
 
 # Features
 
