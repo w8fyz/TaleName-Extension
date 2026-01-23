@@ -1,3 +1,6 @@
+# DEPRECATED: Please use the built-in auth system to claim your username.
+
+
 # TaleName Extension
 
 Welcome to the official extension for the first unofficial username database of Hytale!
